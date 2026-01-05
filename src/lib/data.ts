@@ -71,7 +71,7 @@ export const projects = [
       "Led 25-sprint solo Agile delivery integrating 7+ services",
       "Hybrid vector-store architecture with automated CI/CD",
     ],
-    videoUrl: "#", // Replace with actual YouTube link
+    videoUrl: "https://youtu.be/Ry-b-9SvHTU",
     color: "#06b6d4",
   },
   {
@@ -89,7 +89,7 @@ export const projects = [
       "Responsive file manager with folder hierarchy",
       "Real-time upload progress tracking",
     ],
-    videoUrl: "#", // Replace with actual YouTube link
+    videoUrl: "https://youtu.be/0P70loZmCv0",
     color: "#a855f7",
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
       "Undo-redo system for instant revision",
       "Cut design iteration time by ~50%",
     ],
-    videoUrl: "#", // Replace with actual YouTube link
+    videoUrl: "https://www.youtube.com/watch?v=W3jq2OjuoGE",
     color: "#3b82f6",
   },
   {
@@ -125,7 +125,7 @@ export const projects = [
       "Refined core puzzle logic",
       "Streamlined feature integration by ~25%",
     ],
-    videoUrl: "#", // Replace with actual YouTube link
+    videoUrl: "https://www.youtube.com/watch?v=EPcYmpdZYjY",
     color: "#10b981",
   },
 ];
@@ -144,6 +144,18 @@ export const experience = [
     color: "#06b6d4",
   },
   {
+    title: "Webmaster (NSF)",
+    company: "Singapore Armed Forces",
+    location: "Singapore",
+    period: "Oct 2017 – Oct 2019",
+    description: [
+      "Photographed and edited high-quality images and videos for print and digital distribution",
+      "Created and maintained physical records and digital files for accurate documentation",
+      "Liaised between officers and vendors, maintaining effective communication channels",
+    ],
+    color: "#a855f7",
+  },
+  {
     title: "IT Intern",
     company: "Metta Welfare Association",
     location: "Singapore",
@@ -152,7 +164,7 @@ export const experience = [
       "Recommended and implemented targeted hardware and software upgrades, increasing system responsiveness by 60%",
       "Troubleshot and resolved network issues, stabilizing operations across the organization",
     ],
-    color: "#a855f7",
+    color: "#10b981",
   },
   {
     title: "Level Designer & Project Manager",
@@ -183,6 +195,13 @@ export const education = [
     period: "Apr 2014 – Mar 2017",
     details: "Distinction in Operating Systems, A's in IT Fundamentals & Project, Data Structures",
   },
+  {
+    degree: "NITEC in Information Technology",
+    field: "",
+    school: "Institute of Technical Education College West",
+    period: "Dec 2013",
+    details: "GPA 3.861, CCA Grade Platinum (A)",
+  },
 ];
 
 export const awards = [
@@ -199,10 +218,17 @@ export const awards = [
     description: "Recognition for exceptional youth leadership",
   },
   {
+    year: "2018",
+    title: "Unit Best Soldier of the Month",
+    organization: "Singapore Armed Forces",
+    description: "September 2018 - Excellence in service",
+  },
+  {
     year: "2016",
     title: "ITE Educational Project Recognition",
     organization: "The Straits Times",
     description: "Media coverage for innovative educational game project",
+    link: "https://web.archive.org/web/20240524100421/https:/www.straitstimes.com/singapore/education/ite-students-take-on-evil-hackers-in-computer-game-designed-by-their-schoolmates",
   },
 ];
 

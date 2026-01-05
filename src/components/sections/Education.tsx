@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { GraduationCap, Award, Trophy } from "lucide-react";
+import { GraduationCap, Award, Trophy, ExternalLink } from "lucide-react";
 import { education, awards } from "@/lib/data";
 
 export default function Education() {
@@ -95,9 +95,21 @@ export default function Education() {
                         {award.year}
                       </span>
                     </div>
-                    <h4 className="text-white font-medium group-hover:text-cyan-400 transition-colors">
-                      {award.title}
-                    </h4>
+                    {"link" in award && award.link ? (
+                      <a
+                        href={award.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white font-medium group-hover:text-cyan-400 transition-colors flex items-center gap-2"
+                      >
+                        {award.title}
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    ) : (
+                      <h4 className="text-white font-medium group-hover:text-cyan-400 transition-colors">
+                        {award.title}
+                      </h4>
+                    )}
                     <p className="text-gray-500 text-sm">{award.organization}</p>
                     <p className="text-gray-400 text-xs mt-1">{award.description}</p>
                   </div>
