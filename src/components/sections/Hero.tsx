@@ -39,8 +39,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
         >
-          <span className="block text-white">{personalInfo.name.split(" ")[0]}</span>
-          <span className="block gradient-text">{personalInfo.name.split(" ").slice(1).join(" ")}</span>
+          <span className="gradient-text">{personalInfo.name}</span>
         </motion.h1>
 
         {/* Title */}

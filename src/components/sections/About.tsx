@@ -113,12 +113,10 @@ export default function About() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
+          className="grid grid-cols-2 gap-6 mt-16 max-w-md mx-auto"
         >
           {[
             { value: "4+", label: "Major Projects" },
-            { value: "38", label: "Centers Served" },
-            { value: "5.1s", label: "Median Response" },
             { value: "10+", label: "Years in Tech" },
           ].map((stat, index) => (
             <motion.div

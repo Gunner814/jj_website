@@ -8,7 +8,7 @@ export const personalInfo = {
   github: "https://github.com/Gunner814",
   location: "Singapore",
   resumeUrl: "/Tan_JianJie_Resume.pdf",
-  availability: "Available for full-time roles from Jan 2026",
+  availability: "Open to New Opportunities",
 };
 
 export const about = {
