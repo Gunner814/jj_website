@@ -85,8 +85,8 @@ export default function Contact() {
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Available for full-time opportunities starting January 2026.
-            Let&apos;s discuss how I can contribute to your team.
+            Have a project in mind or want to connect?
+            Let&apos;s chat!
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-purple-500 mx-auto rounded-full mt-4" />
         </motion.div>
